@@ -1,38 +1,106 @@
-.App {
-  text-align: center;
+/* 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: #f9f9f9;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.product_details {
+  background-color: #fff;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 30px;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+
+.product_page_img{
+  width: 100%;
+  height: 400px;
+  bottom: 1px solid #eee;
+  margin-right: 30px;
+  padding: 5px;
+  overflow: hidden;
+  position: relative;
+}
+.mySlides {
+  position: relative;
+  height: 330px;
+  width: 100%;
+  display: none;
+}
+
+
+.mySlides .numbertext{
+  color: #f2f2f2;
+  text-shadow: 0 0 4px blue;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+}
+.mySlides img {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  object-fit: cover;
+}
+.product_page_img .prev,
+.product_page_img .next {
+
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: auto;
+  padding: 10px;
+  margin-top: -50px;
   color: white;
+   font-weight: bold;
+   font-size: 20px;
+   border-radius: 0 3px 3px 0;
+   user-select: none;
+}
+.product_page_img .next {
+  right: 0;
+  border-radius:  3px  0  0 3px;
+  
+}
+.product_page_img .prev:hover,
+.product_page_img .next:hover {
+  background: rgba(0, 0, 0, 0.8);
 }
 
-.App-link {
-  color: #61dafb;
+
+
+
+.product_page_img .slider_img {
+  width: 100%;
+  height: 50px;
+  overflow-x: scroll;
+  user-select: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+ .product_page_img .slider_img  .slider_box  {
+  width: 50px;
+  height: 50px;
+  min-width: 50px;
+  cursor: pointer;
+  overflow: hidden;
+  border: 1px solid #ddd;
+  padding: 2px;
+ }
+
+ .product_page_img .slider_img  .slider_box  img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: inline-block;
+ } */
